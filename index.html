@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>FORM DATA PEGAWAI</h2>
+    <form id="DataPegawai">
+        <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" nama="nama" placeholder="Masukkan nama">
+            <div class="error" id="namaError"></div>
+        </div>
+        <div class="form-group">
+            <label for="posisi">Posisi:</label>
+            <input type="text" id="posisi" name="posisi" placeholder="Masukkan posisi">
+            <div class="error" id="posisiError"></div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email">
+            <div class="error" id="emailError"></div>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone" placeholder="Masukkan nomor telepon">
+            <div class="error" id="phoneError"></div>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
